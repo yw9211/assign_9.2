@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JSON songlist</title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+</script>
+<script language="javascript">
+    function filterGenre() 
+    {
+      var g = document.getElementById("genre").value;
+      $.getJSON("songlist.json", function(data){     
+        var songs = data;
+        var filteredSongs = "";
+        songs.forEach(function(song) { 
+          if (song.genre == g){
+            filteredSongs += song.title + "<br>";
+          }
+        })
+        document.getElementById("songNames").innerHTML = filteredSongs;                  
+      }).fail(function(){
+          console.log("An error has occurred.");
+      });
+    }    
+    </script> 
+</head> 
+<body>
+    <h1>JSON Songlist</h1>
+    <form>
+      <label for="genre">Choose a genre:</label>
+      <select name="genre" id="genre">
+        <option value="K-POP">K-POP</option>
+        <option value="Alternative">Alternative</option>
+        <option value="R&B">R&amp;B</option>
+        <option value="POP">POP</option>
+      </select>
+      <button onclick="filterGenre(); return false;">Filter</button>
+      <div id="songNames">&nbsp;</div>
+    </form>
+</body>
+</html>

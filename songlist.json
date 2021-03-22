@@ -1,0 +1,62 @@
+
+[
+  {
+    "title":"Kazino", 
+    "artist":"BIBI", 
+    "genre":"K-POP", 
+    "release":2020
+  },
+  {
+    "title":"Instagram", 
+    "artist":"DEAN", 
+    "genre":"Alternative", 
+    "release":2017
+  },
+  {
+    "title":"Lowkey", 
+    "artist":"NIKI", 
+    "genre":"R&B", 
+    "release":2019
+  },
+  {
+    "title":"3AM", 
+    "artist":"Halsey", 
+    "genre":"Alternative", 
+    "release":2020
+  },
+  {
+    "title":"Love To Hate Me", 
+    "artist":"BlackPink", 
+    "genre":"K-POP", 
+    "release":2020
+  },
+  {
+    "title":"Shouldn't Couldn't Wouldn't", 
+    "artist":"88rising & NIKI", 
+    "genre":"POP", 
+    "release":2019
+  },
+  {
+    "title":"Indigo", 
+    "artist":"88rising & NIKI", 
+    "genre":"R&B", 
+    "release":2019
+  },
+  {
+    "title":"Strange Land", 
+    "artist":"88rising, NIKI & Phum Viphurit", 
+    "genre":"POP", 
+    "release":2019
+  },
+  {
+    "title":"Finally", 
+    "artist":"Halsey", 
+    "genre":"Alternative", 
+    "release":2020
+  },
+  {
+    "title":"HOLO", 
+    "artist":"LeeHi", 
+    "genre":"R&B", 
+    "release":2020}
+]
